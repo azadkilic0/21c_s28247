@@ -1,3 +1,5 @@
+import math
+
 #Task-1
 squares = [x**2 for x in range(1, 11)]
 print( "Task 1 :",squares)
@@ -19,3 +21,6 @@ if __name__ == "__main__":
     square_generator = SquareGenerator()
     squares = square_generator.generate_squares(1, 10)
     print("Task 3 :",squares)
+# Task-4
+square_roots = [math.sqrt(number) for number in squares]
+print("Task 4 :", square_roots)
