@@ -72,4 +72,32 @@ cubic_generator = CubicGenerator()
 cubes = cubic_generator.generate_cubes(1, 5)
 print("Cubes:", cubes)
 
+#Task-10
+print("Task 10:")
+if __name__ == "__main__":
+    # Creating an instance of SquareGenerator
+    square_gen = SquareGenerator()
 
+    # Generating squares for the range 1 to 5
+    squares = square_gen.generate_squares(1, 5)
+    print("Squares:", squares)
+
+    # Creating an instance of CubicGenerator
+    cubic_gen = CubicGenerator()
+
+    # Generating cubes for the range 1 to 5
+    cubes = cubic_gen.generate_cubes(1, 5)
+    print("Cubes:", cubes)
+
+    # Generating squares for the range 1 to 5 using CubicGenerator
+    squares_cubic = cubic_gen.generate_squares(1, 5)
+    print("Squares (using CubicGenerator):", squares_cubic)
+
+
+    # Generating cubes for the range 1 to 5
+    cubes = cubic_gen.generate_cubes(1, 5)
+    print("Cubes:", cubes)
+
+    # Generating squares for the range 1 to 5 using CubicGenerator
+    squares = cubic_gen.generate_squares(1, 5)
+    print("Squares (using CubicGenerator):", squares)
