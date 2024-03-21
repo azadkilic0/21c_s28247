@@ -47,3 +47,16 @@ if __name__ == "__main__":
         squares_invalid = square_generator.generate_squares(10, 1)  # This should raise an exception
     except ValueError as error:
         print(f"Error: {error}")
+
+#Task-6
+from Lab_3 import SquareGenerator
+if __name__ == "__main__":
+    square_generator = SquareGenerator()
+    try:
+        squares = square_generator.generate_squares(1, 10)
+        print ("Task 6 :")
+        print(squares)
+        # This line is expected to raise an exception due to invalid range
+        squares_invalid = square_generator.generate_squares(10, 1)
+    except ValueError as error:
+        print(f"Error: {error}")
