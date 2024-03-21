@@ -60,3 +60,16 @@ if __name__ == "__main__":
         squares_invalid = square_generator.generate_squares(10, 1)
     except ValueError as error:
         print(f"Error: {error}")
+
+#Task-8
+print("Task 8:")
+from square_generator_pkg.SquareGenerator import CubicGenerator
+
+# Create an instance of CubicGenerator
+cubic_generator = CubicGenerator()
+
+# Generate cubes
+cubes = cubic_generator.generate_cubes(1, 5)
+print("Cubes:", cubes)
+
+
